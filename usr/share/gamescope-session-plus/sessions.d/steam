@@ -23,10 +23,10 @@ function post_gamescope_start {
 export STEAM_GAMESCOPE_VRR_SUPPORTED=1
 
 # Enable Mangoapp
-#export STEAM_MANGOAPP_PRESETS_SUPPORTED=1
-#export STEAM_USE_MANGOAPP=1
+export STEAM_MANGOAPP_PRESETS_SUPPORTED=1
+export STEAM_USE_MANGOAPP=1
 
-#export STEAM_USE_DYNAMIC_VRS=1
+export STEAM_USE_DYNAMIC_VRS=1
 
 # Set up first time bootstrap status
 export STEAM_BOOTSTRAP_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/gamescope/bootstrap.cfg"
@@ -77,7 +77,7 @@ export STEAM_ALLOW_DRIVE_UNMOUNT=1
 export STEAM_DISABLE_MANGOAPP_ATOM_WORKAROUND=1
 
 # Enable horizontal mangoapp bar
-#export STEAM_MANGOAPP_HORIZONTAL_SUPPORTED=1
+export STEAM_MANGOAPP_HORIZONTAL_SUPPORTED=1
 
 # Scaling support
 export STEAM_GAMESCOPE_FANCY_SCALING_SUPPORT=1
